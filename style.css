@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Estonia&family=M+PLUS+1+Code&family=Montserrat&family=Roboto&family=Roboto+Mono&display=swap');
+
+:root{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    --primary-color: #374151;
+    --secondary-color: blue;
+    background-color: var(--secondary-color);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    width: 70%; 
+    background-color:navy;
+    border-radius: 3rem;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+#initial-price{
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid var(--primary-color);
+}
+#stock-quantity{
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid var(--primary-color);
+}
+#current-price{
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-weight: bold;
+    border:2px solid var(--primary-color);
+}
+label{
+    margin-top: 2rem;
+    font-weight: bold;
+}
+#check-button{
+    width: 40%;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 00.8rem;
+    border-radius: 0.5rem;
+    /* background-color: var(--primary-color); */
+    font-weight: bold;
+    color: var(--secondary-color);
+}
+#out-put{
+    margin-top: 0.5rem;
+    font-weight: bold;
+    padding: 5rem;
+    border: solid black 2px;
+    background-color: antiquewhite;
+
+}
+body{
+    background-color: red;
+    padding: 6rem;
+    border-radius: 3rem;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
